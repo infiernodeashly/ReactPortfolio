@@ -1,4 +1,4 @@
-# Budget Tracker
+# React Portfolio
 
 Repository: https://github.com/infiernodeashly/ReactPortfolio.git
 URL: https://infiernodeashly.github.io/ReactPortfolio/
@@ -12,7 +12,7 @@ This application is a react portfolio for myself, utilizing components.
 - [Description](#description)
 - [Installation](#install)
 - [Usage](#usage)
-- [License](#license) <img src="http://img.shields.io/badge/license-MIT-blue">
+- [License](#license) <img src="http://img.shields.io/badge/license-The Unlicensed-blue">
 - [Contributors](#contributors)
 - [Resources](#resources)
 - [Tests](#tests)
@@ -28,7 +28,7 @@ Upon loading the user will see the portfolio's landing page. The user can select
 
 [![Watch the video] (https://youtu.be/7DdKCIp8_fg) ![](./public/images/ReactPortfolio.gif)
 
-## License <img src="http://img.shields.io/badge/license-MIT-blue">
+## License <img src="http://img.shields.io/badge/license-The Unlicensed-blue">
 
 The Unlicense
 
