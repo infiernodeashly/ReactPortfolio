@@ -1,7 +1,7 @@
 # Budget Tracker
 
-Repository:
-URL:
+Repository: https://github.com/infiernodeashly/ReactPortfolio.git
+URL: https://infiernodeashly.github.io/ReactPortfolio/
 
 ## Description
 
