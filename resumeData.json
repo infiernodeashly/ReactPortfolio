@@ -1,0 +1,170 @@
+
+{
+  "main": {
+    "name": "Ashly Mayle",
+    "occupation": "Project Manager and GWU Full Stack Coding Student",
+    "description": "Changing to a Coding Career",
+    "image": "Headshot2.jpg",
+    "bio": "I am a Project Manager changing my career to a Website Developer. I started in the food retail and hospitality industries and moved my way into government contracting work as a security officer. From there, I obtained my B.A. in Communications and worked on various government contracts in a communication-related position. Shortly later, I obtained my M.S. in Computer Information Systems, and with my communications experience I successfully executed the position of Project Manager for building government-funded systems. However, I know my love lies in developing technology and, therefore, am making a career change in that direction. My technical training comes in the form of George Wasington University's Full-Stack Coding Bootcamp, Java Programming and Advanced Database Design and Development courses from Bellevue University, and web design and Macromedia courses from Northern Virginia Community College. As for experience, I developed a database and reports using MS Access Web Apps and SharePoint online to track proposal data for a cyber security training program, maintained and updated various program websties, and planned and perfomed Website Usability Testing, along with system internal and User Acceptance Testing.",
+    "contactmessage": "Contact info below: ",
+    "email": "infiernodeashly@gmail.com",
+    "phone": "55555555555",
+    "address": {
+     "city": "Manassas",
+      "state": "Northern VA"      
+    },
+   
+    "website": "http://www.timbakerdev.com",
+    
+    "resumedownload": "images/portfolio/AshlyMayle-TechnicalResume.pdf",
+    "social": [
+     
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/ashly-mayle/",
+        "className": "fa fa-linkedin "
+      },
+    
+      {
+        "name": "github",
+        "url": "https://github.com/infiernodeashly",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "education": [
+       {
+        "school": "George Washington University",
+        "degree": "Full-Stack Coding Bootcamp",
+        "graduated": "January 2021",
+        "description": "Javascript, Reactjs, jQuery, MongoDB, MySQL, JNode, JSON, AJAX"
+      },
+      {
+        "school": "Bellevue University",
+        "degree": "M.S. Computer Information Systems",
+        "graduated": "August 2018",
+        "description": "Graduated with 4.0gpa, focus on Project Management and System Architecture"
+      },
+      {
+        "school": "George Mason University",
+        "degree": "B.A. Communication - Public Relations",
+        "graduated": "May 2014",
+        "description": "Graduated with 3.9gpa, focus on Public Relations with Minor in Business"
+      }
+    ],
+    "work": [
+      {
+        "company": "UCS",
+        "title": "Project Manager",
+        "years": "August 2019 - Present",
+        "description": "Business-side of system development Project Management."
+      },
+      {
+        "company": "Universal Consulting Services (UCS)",
+        "title": "sr. Data Analyst",
+        "years": "March 2019 - August 2019",
+        "description": "Business-side of system development data analytics testing."
+      },
+      {
+        "company": "Universal Consulting Services",
+        "title": "Sr. Program Analyst",
+        "years": "March 2018 - December 2018",
+        "description": "Managed executive-level meetings, identified communication gaps, developed SOPs, etc.."
+      },
+      {
+        "company": "Chenega Professional and Technical Services",
+        "title": "Project Coordinator",
+        "years": "March 2017 - March 2018",
+        "description": "Project coordination, requirements analysis, software analysis, and web user analysis"
+      },
+      {
+        "company": "Chenega Time Solutions",
+        "title": "Outreach Coordinator",
+        "years": "October 2015 - March 2017",
+        "description": "Develop system to help manage proposals and programs and increase data integrity"
+      }
+    ],
+    "skills": [
+      {
+        "name": "ReactJs",
+        "level": "85%"
+      },
+      
+      {
+        "name": "MySQL",
+        "level": "75%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "80%"
+      },
+      {
+        "name": "MongoDB",
+        "level": "80%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Explore",
+        "category": "Searchable API for travel via GitHub",
+        "image": "Project1.png",
+        "url": "https://talysh.github.io/explorer/index.html"
+        
+      },
+      {
+        "title": "NoteTaker",
+        "category": "NoteTaker app on Heroku",
+        "image": "NoteTaker.png",
+        "url": "https://arcane-waters-35521.herokuapp.com/"
+        
+      },
+{
+        "title": "Agenda App",
+        "category": "Agenda Application on GitHub",
+        "image": "Agenda.png",
+        "url": "https://infiernodeashly.github.io/Day-Planner/"
+        
+      },
+      {
+        "title": "Burger Tracker",
+        "category": "Burger Tracker on Heroku",
+        "image": "Burger.PNG",
+        "url": "https://lit-badlands-96232.herokuapp.com/"
+        
+      },
+      {
+        "title": "Quiz App",
+        "category": "Quiz App on GitHub",
+        "image": "Quiz.png",
+        "url": "https://infiernodeashly.github.io/Code-Quiz/"
+        
+      },
+      {
+        "title": "ReadMe Generator",
+        "category": "ReadMe Generator with Node",
+        "image": "ReadMeGenerator.PNG",
+        "url": "https://infiernodeashly.github.io/Good-README-Generator/"
+        
+      },
+      {
+        "title": "Team Profile Generator",
+        "category": "Team Profile Generator on GitHub",
+        "image": "TeamProfileGenerator.PNG",
+        "url": "https://infiernodeashly.github.io/Team-Profile-Generator/"
+        
+      },
+      {
+        "title": "Weather App",
+        "category": "Weather app on GitHub",
+        "image": "weather.png",
+        "url": "https://infiernodeashly.github.io/Weather-Dashboard/"
+        
+      }
+    ]
+  }
+  
+}
