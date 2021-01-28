@@ -6,7 +6,7 @@ import About from './Components/About';
 import Resume from './Components/Resume';
 import Contact from './Components/Contact';
 import Portfolio from './Components/Portfolio';
-import axios from 'axios';
+import resumeDataJson from "./resumeData.json";
 
 class App extends Component {
 
@@ -14,24 +14,9 @@ class App extends Component {
     super(props);
     this.state = {
       foo: 'bar',
-      resumeData: {}
+      resumeData: resumeDataJson
     };
 
-  }
-// pull resumeData.json data
-  getResumeData() {
-    axios.get('/resumeData.json')
-      .then(function(data) {
-        this.setState({resumeData: data});
-      })
-      .catch(function(err) {
-        console.log(err);
-        alert(err);
-      });
-  }
-// mount and pull resume data from function above upon success.
-  componentDidMount(){
-    this.getResumeData();
   }
 
   render() {
