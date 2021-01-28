@@ -1,7 +1,7 @@
 # React Portfolio
 
 Repository: https://github.com/infiernodeashly/ReactPortfolio.git
-URL: https://infiernodeashly.github.io/ReactPortfolio/
+URL: https://radiant-dawn-57014.herokuapp.com/
 
 ## Description
 
