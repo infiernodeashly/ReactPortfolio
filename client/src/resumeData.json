@@ -111,14 +111,14 @@
       {
         "title": "Explore",
         "category": "Searchable API for travel via GitHub",
-        "image": "Project1.png",
+        "image": "project1.png",
         "url": "https://talysh.github.io/explorer/index.html"
         
       },
       {
         "title": "NoteTaker",
         "category": "NoteTaker app on Heroku",
-        "image": "NoteTaker.png",
+        "image": "NoteTaker.PNG",
         "url": "https://arcane-waters-35521.herokuapp.com/"
         
       },
