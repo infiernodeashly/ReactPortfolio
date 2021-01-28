@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import ReactGA from 'react-ga';
-import $ from 'jquery';
 import './App.css';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
@@ -8,6 +6,7 @@ import About from './Components/About';
 import Resume from './Components/Resume';
 import Contact from './Components/Contact';
 import Portfolio from './Components/Portfolio';
+import axios from 'axios';
 
 class App extends Component {
 
@@ -20,19 +19,15 @@ class App extends Component {
 
   }
 // pull resumeData.json data
-  getResumeData(){
-    $.ajax({
-      url:'/resumeData.json',
-      dataType:'json',
-      cache: false,
-      success: function(data){
+  getResumeData() {
+    axios.get('/resumeData.json')
+      .then(function(data) {
         this.setState({resumeData: data});
-      }.bind(this),
-      error: function(xhr, status, err){
+      })
+      .catch(function(err) {
         console.log(err);
         alert(err);
-      }
-    });
+      });
   }
 // mount and pull resume data from function above upon success.
   componentDidMount(){
